@@ -46,8 +46,8 @@ JRNC_SIM
 │   │   ├── mapper_params_online_async_sim.yaml  # slam-toolbox 建图参数文件
 │   │   └── nav2_param.yaml  # navigation2 导航参数文件
 │   ├── launch
-│   │   ├── bringup.launch.py
-│   │   └── mapping.launch.py  # 建图启动文件
+│   │   ├── navigation.launch.py # 导航启动文件
+│   │   └── mapping.launch.py    # 建图启动文件
 │   ├── map
 │   │   ├── jrnc.pgm  # 地图
 │   │   └── jrnc.yaml
