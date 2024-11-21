@@ -1,0 +1,8 @@
+<root main_tree_to_execute="MainTree">
+    <BehaviorTree ID="MainTree">
+        <Sequence name="NavigateLoop">
+            <MoveActionNode name="MoveToPointA" x="0.3" y="0.3" theta="0.0"/>
+            <MoveActionNode name="MoveToPointB" x="2.1" y="1.5" theta="1.57"/>
+        </Sequence>
+    </BehaviorTree>
+</root>
